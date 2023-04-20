@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="column-container" id="Tetris">
+        <div class="column-1">
+          <canvas width="150" height="300" id="main-screen">error</canvas>
+          <table>
+            <tr>
+              <td><i class="fas fa-arrow-alt-circle-left"></i><i class="fas fa-arrow-alt-circle-right"></i></td>
+              <td>Move</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-arrow-alt-circle-down"></i></td>
+              <td>Decision</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-arrow-alt-circle-up"></i></td>
+              <td>Rotation</td>
+            </tr>
+          </table>
+        </div>
+        <div class="column-2">
+          <div class="group">
+            <p>Next</p>
+            <canvas width="50" height="50" id="sub-screen">error</canvas>
+          </div>
+          <div class="group">
+            <p>Score</p>
+            <div id="score">
+            </div>
+          </div>
+          <div class="group">
+            <p id="play">Play</p>
+          </div>
+        </div>
+        <canvas width="130" height="30" id="game-over">error</canvas>
+      </div>
+      <p class="credit">
+        This Pen is based on <a href="https://codepen.io/hankuro/">Hankuro's</a> Pen <a href="https://codepen.io/hankuro/pen/pWjBgZ/">Tetris</a>.</p>
+</body>
+</html>
